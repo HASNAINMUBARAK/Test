@@ -5,6 +5,7 @@ import Account from "./Components/Account";
 import More from "./Components/More";
 import Recent from "./Components/Recent";
 import NFT from "./Components/NFT";
+// import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <More />
       <Recent />
       <NFT />
+      {/* <Footer /> */}
     </>
   );
 }
