@@ -1,0 +1,28 @@
+.first-content {
+  margin-left: 10px;
+}
+.circle-picture {
+  margin: 20px 0px 20px 10px !important;
+  display: flex;
+  align-items: center;
+}
+h3 {
+  margin-left: 10px;
+}
+.link2 {
+  margin-left: 10px;
+}
+.last-content {
+  margin-left: 20px;
+}
+.last-end {
+  display: flex;
+  color: white;
+  background: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.MuiGrid-container {
+  display: flex;
+  justify-content: center;
+}

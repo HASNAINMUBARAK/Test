@@ -6,6 +6,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+.silicon {
+  font-family: cursive;
+}
 h1,
 p {
   margin: 30px;

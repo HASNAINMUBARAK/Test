@@ -1,0 +1,41 @@
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: white;
+}
+.para {
+  margin: 0px;
+  font-size: 12px;
+}
+.first {
+  border-left: 1px solid white;
+}
+.second {
+  border-left: 1px solid white;
+}
+.third {
+  border-left: 1px solid white;
+}
+.load {
+  width: 120px;
+  height: 30px;
+  margin-left: 40px;
+  background-color: #6604b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  .forth {
+    display: flex;
+    justify-content: center;
+  }
+}
