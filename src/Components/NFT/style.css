@@ -1,0 +1,6 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1a0233;
+}

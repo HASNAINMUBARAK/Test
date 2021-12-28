@@ -6,7 +6,7 @@ import Card from "../Card";
 import "./style.css";
 const Recent = () => {
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="md" spacing={3}>
       <Grid>
         <Grid item sm={12} spacing={3} className="bid-header">
           <div className="b-hdot">

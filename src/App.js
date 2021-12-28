@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Account from "./Components/Account";
 import More from "./Components/More";
 import Recent from "./Components/Recent";
+import NFT from "./Components/NFT";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Account />
       <More />
       <Recent />
+      <NFT />
     </>
   );
 }

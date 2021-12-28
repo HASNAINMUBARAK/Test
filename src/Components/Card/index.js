@@ -5,7 +5,7 @@ const Card = (props) => {
   const { title, img, image, link } = props.menuItem;
   return (
     <>
-      <Grid container className="outer-container">
+      <Grid container className="outer-container" spacing={3}>
         <Grid item lg={12} className="inner-container">
           <Grid items className="card-container">
             <img className="art" src={img} alt="" />
