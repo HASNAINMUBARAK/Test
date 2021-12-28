@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import SearchIcon from "@material-ui/icons/Search";
 import Logo from "../../Assets/Images/Logo.png";
+import { Link } from "react-router-dom";
 import "./style.css";
 const Navbar = () => {
   return (
@@ -33,7 +34,9 @@ const Navbar = () => {
           </div>
         </Grid>
         <Grid item md={2} xs={12} className="btns">
-          <button className="btn1">Create</button>
+          <Link to="/Bidpage">
+            <button className="btn1">Create </button>
+          </Link>
           <button className="btn2">Sign In</button>
         </Grid>
       </Grid>

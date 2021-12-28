@@ -6,8 +6,8 @@ const Card = (props) => {
   return (
     <>
       <Grid container className="outer-container" spacing={3}>
-        <Grid item lg={12} className="inner-container">
-          <Grid items className="card-container">
+        <Grid item lg={12} className="inner-container" spacing={3}>
+          <Grid items className="card-container" spacing={3}>
             <img className="art" src={img} alt="" />
             <h3 className="artwork">{title}</h3>
           </Grid>

@@ -29,7 +29,7 @@ const Recent = () => {
                 md={3}
                 lg={3}
               >
-                <Card menuItem={menuItem} />
+                <Card menuItem={menuItem} spacing={3} />
               </Grid>
             );
           })}
