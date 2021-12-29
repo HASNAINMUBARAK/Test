@@ -7,7 +7,7 @@ import "./style.css";
 const Recent = () => {
   return (
     <Container maxWidth="md" spacing={3}>
-      <Grid>
+      <Grid spacing={3}>
         <Grid item sm={12} spacing={3} className="bid-header">
           <div className="b-hdot">
             <div className="color"></div>
